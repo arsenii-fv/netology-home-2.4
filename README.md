@@ -30,3 +30,9 @@ d5f9411f5 command: Fix bug when using terraform login on Windows
 dd01a3507 Update CHANGELOG.md	
 225466bc3 Cleanup after v0.12.23 release
 
+7. 
+commit 5ac311e2a91e381e2f52234668b49ba670aa0fe5
+Author: Martin Atkins <mart@degeneration.co.uk>
+Date:   Wed May 3 16:25:41 2017 -0700
+
+    main: synchronize writes to VT100-faker on Windows
