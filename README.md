@@ -30,6 +30,11 @@ d5f9411f5 command: Fix bug when using terraform login on Windows
 dd01a3507 Update CHANGELOG.md	
 225466bc3 Cleanup after v0.12.23 release
 
+5.
+commit 8c928e83589d90a031f811fae52a81be7153e82f
+Author: Martin Atkins <mart@degeneration.co.uk>
+Date:   Thu Apr 2 18:04:39 2020 -0700
+
 6.
 commit 52dbf94834cb970b510f2fba853a5b49ad9b1a46
 Author: James Bardin <j.bardin@gmail.com>
