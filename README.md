@@ -1,6 +1,9 @@
 # netology-home-2.4
 1.	commit aefead2207ef7e2aa5dc81a34aedf0cad4c32545
- 	tag: aefea
+Author: Alisdair McDiarmid <alisdair@users.noreply.github.com>
+Date:   Thu Jun 18 10:29:58 2020 -0400
+
+    Update CHANGELOG.md
 
 2.	85024d310 (HEAD, tag: v0.12.23) v0.12.23
 3.	commit 9ea88f22fc6269854151c571162c5bcf958bee2b
