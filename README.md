@@ -30,6 +30,33 @@ d5f9411f5 command: Fix bug when using terraform login on Windows
 dd01a3507 Update CHANGELOG.md	
 225466bc3 Cleanup after v0.12.23 release
 
+6.
+commit 52dbf94834cb970b510f2fba853a5b49ad9b1a46
+Author: James Bardin <j.bardin@gmail.com>
+Date:   Wed Aug 9 17:46:49 2017 -0400
+
+    keep .terraform.d/plugins for discovery
+   
+commit 41ab0aef7a0fe030e84018973a64135b11abcd70
+Author: James Bardin <j.bardin@gmail.com>
+Date:   Wed Aug 9 10:34:11 2017 -0400
+
+    Add missing OS_ARCH dir to global plugin paths
+    
+commit 66ebff90cdfaa6938f26f908c7ebad8d547fea17
+Author: James Bardin <j.bardin@gmail.com>
+Date:   Wed May 3 22:24:51 2017 -0400
+
+    move some more plugin search path logic to command
+    
+    Make less to change when we remove the old search path
+
+commit 8364383c359a6b738a436d1b7745ccdce178df47
+Author: Martin Atkins <mart@degeneration.co.uk>
+Date:   Thu Apr 13 18:05:58 2017 -0700
+
+    Push plugin discovery down into command package
+
 7. 
 commit 5ac311e2a91e381e2f52234668b49ba670aa0fe5
 Author: Martin Atkins <mart@degeneration.co.uk>
