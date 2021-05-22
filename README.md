@@ -49,6 +49,8 @@ dd01a3507 Update CHANGELOG.md
 85024d3100126de36331c6982bfaac02cdab9e76 (tag: v0.12.23)
 
 5.
+	git grep providerSource
+	git log -L :providerSource:provider_source.go
 commit 8c928e83589d90a031f811fae52a81be7153e82f
 Author: Martin Atkins <mart@degeneration.co.uk>
 Date:   Thu Apr 2 18:04:39 2020 -0700
