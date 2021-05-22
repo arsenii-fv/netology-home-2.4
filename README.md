@@ -1,12 +1,26 @@
 # netology-home-2.4
-1.	commit aefead2207ef7e2aa5dc81a34aedf0cad4c32545
+1.	git show aefea	
+	commit aefead2207ef7e2aa5dc81a34aedf0cad4c32545
 Author: Alisdair McDiarmid <alisdair@users.noreply.github.com>
 Date:   Thu Jun 18 10:29:58 2020 -0400
 
     Update CHANGELOG.md
 
-2.	85024d310 (HEAD, tag: v0.12.23) v0.12.23
-3.	commit 9ea88f22fc6269854151c571162c5bcf958bee2b
+2.	git show 85024d3
+
+	85024d310 (HEAD, tag: v0.12.23) v0.12.23
+
+3.
+	680  git rev-parse b8d720^
+  681  git rev-parse ^b8d720
+  682  git rev-parse b8d720^2
+  683  git rev-parse b8d720^1
+  684  git rev-parse b8d720^0
+  685  git log --no-walk b8d720^
+  686  git log --no-walk b8d720^@
+  687  git rev-parse b8d720^@
+
+	commit 9ea88f22fc6269854151c571162c5bcf958bee2b
 	Author: Chris Griggs <cgriggs@hashicorp.com>
 	Date:   Tue Jan 21 17:08:06 2020 -0800
 
@@ -21,7 +35,7 @@ Date:   Thu Jun 18 10:29:58 2020 -0400
     
     	[cherry-pick]add checkpoint links
 	
-4.
+4.	git show --pretty=oneline v0.12.23...v0.12.24
 33ff1c03b (tag: v0.12.24) v0.12.24
 b14b74c49 [Website] vmc provider links
 3f235065b Update CHANGELOG.md
@@ -40,6 +54,8 @@ Author: Martin Atkins <mart@degeneration.co.uk>
 Date:   Thu Apr 2 18:04:39 2020 -0700
 
 6.
+	git grep globalPluginDirs
+	git log plugins.go
 commit 52dbf94834cb970b510f2fba853a5b49ad9b1a46
 Author: James Bardin <j.bardin@gmail.com>
 Date:   Wed Aug 9 17:46:49 2017 -0400
@@ -66,7 +82,13 @@ Date:   Thu Apr 13 18:05:58 2017 -0700
 
     Push plugin discovery down into command package
 
-7. 
+
+7.
+	git grep synchronizedWriters
+	git log synchronized_writers.go
+	
+	git log -S synchronizedWriters
+	
 commit 5ac311e2a91e381e2f52234668b49ba670aa0fe5
 Author: Martin Atkins <mart@degeneration.co.uk>
 Date:   Wed May 3 16:25:41 2017 -0700
